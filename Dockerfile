@@ -23,6 +23,9 @@ RUN set -ex; \
         curl \
         git \
         wget \
+	firefox \
+	tar \
+	unzip \
         chromium-browser \
         ssh \
         locales \
