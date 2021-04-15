@@ -1,7 +1,7 @@
 {
   "name": "VNC",
   "description": "Deploy VNC to Heroku.",
-  "keywords": ["VNC", "Docker"],
+  "keywords": ["jin", "sel"],
   "env": {
   },
   "website": "",
