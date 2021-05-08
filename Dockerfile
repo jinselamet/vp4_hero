@@ -6,9 +6,8 @@ RUN set -ex; \
     apt-get update \
     && apt-get install -y --no-install-recommends \
         dbus-x11 \
-        pcmanfm \
         leafpad \
-        lxterminal \
+        xarchiver \
         xvkbd \
 	tmux \
         nano \
@@ -18,7 +17,7 @@ RUN set -ex; \
         socat \
         x11vnc \
 	xvfb \
-        icewm \
+        lxde \
         supervisor \
         curl \
         git \
