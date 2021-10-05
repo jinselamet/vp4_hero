@@ -28,7 +28,14 @@ RUN set -ex; \
         chromium-browser \
         ssh \
         locales \
+	fonts-liberation \
+libgbm1 \
+libwayland-server0 \
+libasound2-dev \
+xdg-utils \
     && 	echo "root:demo1234" | chpasswd \
+&& wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
+&& dpkg -i google-chrome-stable_current_amd64.deb \
     && apt-get autoclean \
     && apt-get autoremove \
     && rm -rf /var/lib/apt/lists/*
