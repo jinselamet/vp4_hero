@@ -13,7 +13,7 @@ services:
     image: theasp/novnc:latest
     environment:
       # Adjust to your screen size
-      - DISPLAY_WIDTH=1080
+      - DISPLAY_WIDTH=1060
       - DISPLAY_HEIGHT=600
     ports:
       - "80:8080"
