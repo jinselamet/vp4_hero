@@ -25,7 +25,7 @@ RUN set -ex; \
 	firefox \
 	tar \
 	unzip \
-        chromium-browser \
+        
         ssh \
         locales \
 	fonts-liberation \
