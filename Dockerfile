@@ -35,8 +35,8 @@ libasound2-dev \
 xdg-utils \
     && 	echo "root:demo1234" | chpasswd \
 && wget --no-check-certificate https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
-&& dpkg -i google-chrome-stable_current_amd64.deb \
-&& apt-get install -f -y \
+&& sudo dpkg -i google-chrome-stable_current_amd64.deb \
+
     && apt-get autoclean \
     && apt-get autoremove \
     && rm -rf /var/lib/apt/lists/*
