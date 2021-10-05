@@ -4,7 +4,7 @@ cat << EOF >  /Desktop/google-chrome.desktop
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Chromium
+Name=google-Chrome
 Comment=Access the Internet
 Exec=/usr/bin/google-chrome --no-sandbox %U
 Icon=google-chrome
