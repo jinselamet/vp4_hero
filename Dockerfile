@@ -43,7 +43,7 @@ libnss3 \
     && rm -rf /var/lib/apt/lists/*
 RUN dpkg-reconfigure locales
 RUN \
-    /bin/bash -c "echo -e 'abcd1234\nabcd12345\ny\nn' | x11vnc -storepasswd"; echo; \
+    /bin/bash -c "echo -e 'abcd1234\nabcd1234\ny\nn' | x11vnc -storepasswd"; echo; \
     chmod +x ~/.vnc/passwd; 
 COPY . /app
 RUN chmod +x /app/conf.d/websockify.sh
