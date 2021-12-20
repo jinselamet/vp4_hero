@@ -1,5 +1,4 @@
 #!/bin/bash
-wget --no-check-certificate -P Downloads https://www.alexamaster.net/plugins/alexamaster_pro-2.0-ch.zip && sleep 2
 mkdir -p /Desktop
 cat << EOF >  /Desktop/google-chrome.desktop
 [Desktop Entry]
